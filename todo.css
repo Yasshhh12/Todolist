@@ -8,3 +8,13 @@
 body{
     background-color: #222;
 }
+
+.card{
+    text-align: center;
+    background-color: white;
+    padding: linear-gradient(135deg,#153677,#4e085f);
+    width: 90%;
+    max-width: 470px;
+    min-height: 100vh;
+    margin: 100px auto 0;
+}
