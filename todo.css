@@ -5,16 +5,18 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #222;
+.card{
+    width: 100%;
+    min-height: 100vh;
+    background-color: linear-gradient(135deg,#153677,#4e085f);
+    padding: 10px;
 }
 
-.card{
-    text-align: center;
-    background-color: white;
-    padding: linear-gradient(135deg,#153677,#4e085f);
-    width: 90%;
-    max-width: 470px;
-    min-height: 100vh;
-    margin: 100px auto 0;
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
 }
